@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 export default function Home() {
-  const unused = "hello"; // ❌ Lint error: 'unused' is assigned but never used
 
   return (
     <div className="min-h-screen flex justify-center items-center bg-white">
