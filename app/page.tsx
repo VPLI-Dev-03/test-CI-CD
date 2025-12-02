@@ -4,7 +4,8 @@ import Image from "next/image";
 export default function Home() {
 
   return (
-    <div className="min-h-screen flex justify-evenly items-center bg-white">
+    <div className="min-h-screen flex justify-center items-center bg-white">
+      {/* background image */}
       <Image
         src="/images/img_01.avif"
         alt="huiuiui"
