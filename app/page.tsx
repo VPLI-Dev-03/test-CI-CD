@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Home() {
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-white">
+    <div className="min-h-screen flex justify-evenly items-center bg-white">
       <Image
         src="/images/img_01.avif"
         alt="huiuiui"
@@ -13,6 +13,7 @@ export default function Home() {
         height={600}
         className="w-fit h-fit rounded-lg shadow-lg"
       />
+      <h1 className="font-bold text-3xl text-red-800">Welcome to the Home Page</h1>
     </div>
   );
 }
