@@ -1,14 +1,11 @@
 "use client";
-import { useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
-  const x = 23;
-  console.log(notDefined);
 
   return (
     <div className="min-h-screen flex justify-evenly items-center bg-white">
-      <img
+      <Image
         src="/images/img_01.avif"
         alt="huiuiui"
         width={800}
