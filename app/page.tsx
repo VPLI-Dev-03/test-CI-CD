@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
         height={600}
         className="w-fit h-fit rounded-lg shadow-lg"
       />
+      <h1 className="font-bold text-3xl text-red-800">
+        Welcome to the Home Pageee
+      </h1>
     </div>
   );
 }
