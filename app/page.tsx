@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+  console.log(notDefined)
 
   return (
     <div className="min-h-screen flex justify-center items-center bg-white">
